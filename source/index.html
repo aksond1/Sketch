@@ -3,7 +3,129 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Sketch</title>
+    <link rel="stylesheet" href="/source/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
   </head>
-  <body></body>
+
+  <body>
+    <header>
+      <div class="logo-container">
+        <img
+          class="sketch-img"
+          src="/assets/images/svg/sketch-logo.svg"
+          alt="sketch-logo"
+        />
+        <h1 class="sketch-title">︱Sketch</h1>
+      </div>
+
+      <div class="search-container">
+        <svg
+          class="search-svg"
+          clip-rule="evenodd"
+          fill-rule="evenodd"
+          stroke-linejoin="round"
+          stroke-miterlimit="2"
+          width="16px"
+          height="16px"
+          fill="gray"
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="m15.97 17.031c-1.479 1.238-3.384 1.985-5.461 1.985-4.697 0-8.509-3.812-8.509-8.508s3.812-8.508 8.509-8.508c4.695 0 8.508 3.812 8.508 8.508 0 2.078-.747 3.984-1.985 5.461l4.749 4.75c.146.146.219.338.219.531 0 .587-.537.75-.75.75-.192 0-.384-.073-.531-.22zm-5.461-13.53c-3.868 0-7.007 3.14-7.007 7.007s3.139 7.007 7.007 7.007c3.866 0 7.007-3.14 7.007-7.007s-3.141-7.007-7.007-7.007z"
+            fill-rule="nonzero"
+          />
+        </svg>
+
+        <input type="text" id="search-box" placeholder="Search..." />
+
+        <svg
+          class="cancel-svg"
+          viewBox="0 0 512 512"
+          version="1.1"
+          width="16px"
+          height="16px"
+          xml:space="preserve"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+        >
+          <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+          <g
+            id="SVGRepo_tracerCarrier"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          ></g>
+          <g id="SVGRepo_iconCarrier">
+            <g id="_x37_12-_close__x2C__cross__x2C__cancel__x2C_">
+              <g>
+                <line
+                  style="
+                    fill: none;
+                    stroke: gray;
+                    stroke-width: 13.4167;
+                    stroke-linecap: round;
+                    stroke-linejoin: round;
+                    stroke-miterlimit: 2.6131;
+                  "
+                  x1="486.21"
+                  x2="26.739"
+                  y1="26.814"
+                  y2="486.139"
+                ></line>
+                <line
+                  style="
+                    fill: none;
+                    stroke: gray;
+                    stroke-width: 13.4167;
+                    stroke-linecap: round;
+                    stroke-linejoin: round;
+                    stroke-miterlimit: 2.6131;
+                  "
+                  x1="486.21"
+                  x2="26.739"
+                  y1="486.139"
+                  y2="26.814"
+                ></line>
+              </g>
+            </g>
+            <g id="Layer_1"></g>
+          </g>
+        </svg>
+      </div>
+
+      <div style="display: flex; align-items: center; gap: 15px">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="20"
+          height="20"
+          fill="white"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M15.137 3.945c-.644-.374-1.041-1.07-1.04-1.82v-.003c0-1.172-.939-2.122-2.097-2.122s-2.097.95-2.097 2.122v.003c.001.751-.396 1.446-1.041 1.82-4.667 2.712-1.985 11.715-6.862 13.306v1.749h20v-1.749c-4.877-1.591-2.195-10.594-6.863-13.306zm-6.728 12.055h-1.882c1.245-2.741.879-9.012 3.873-10.655-1.761 2.067-.95 7.504-1.991 10.655zm3.591-13c-.552 0-1-.448-1-1 0-.551.448-1 1-1s1 .449 1 1c0 .552-.448 1-1 1zm-3 18h6c0 1.598-1.393 3-2.971 3-1.579 0-3.029-1.402-3.029-3z"
+          />
+        </svg>
+
+        <svg
+          clip-rule="evenodd"
+          fill-rule="evenodd"
+          stroke-linejoin="round"
+          stroke-miterlimit="2"
+          width="30"
+          height="30"
+          fill="white"
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="m2 17.75c0-.414.336-.75.75-.75h18.5c.414 0 .75.336.75.75s-.336.75-.75.75h-18.5c-.414 0-.75-.336-.75-.75zm2.474-3.249s-.501-.505-2.254-2.259c-.147-.146-.22-.338-.22-.53s.073-.384.22-.53c1.752-1.754 2.254-2.258 2.254-2.258.145-.145.335-.217.526-.217.192 0 .384.074.53.221.293.292.295.766.004 1.057l-.977.977h4.693c.414 0 .75.336.75.75s-.336.75-.75.75h-4.693l.978.979c.289.289.287.761-.006 1.054-.147.147-.339.221-.53.222-.191 0-.38-.071-.525-.216zm6.526-.751c0-.414.336-.75.75-.75h9.5c.414 0 .75.336.75.75s-.336.75-.75.75h-9.5c-.414 0-.75-.336-.75-.75zm0-4c0-.414.336-.75.75-.75h9.5c.414 0 .75.336.75.75s-.336.75-.75.75h-9.5c-.414 0-.75-.336-.75-.75zm-9-4c0-.414.336-.75.75-.75h18.5c.414 0 .75.336.75.75s-.336.75-.75.75h-18.5c-.414 0-.75-.336-.75-.75z"
+          />
+        </svg>
+      </div>
+    </header>
+  </body>
 </html>

@@ -1,0 +1,85 @@
+body {
+  font-family: "Noto Sans", Arial, Helvetica, sans-serif;
+  background-color: rgb(10, 10, 10);
+  color: rgb(255, 255, 255);
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  padding: 10px 30px;
+  font-size: 18px;
+}
+
+img {
+  vertical-align: top;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+ul,
+li {
+  list-style-type: none;
+  padding: 0;
+}
+
+header {
+  background-color: rgb(10, 10, 10);
+  height: 46px;
+
+  margin: 0;
+  padding: 20px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+  width: 220px;
+  padding-left: 0px;
+}
+
+.sketch-img {
+  width: 30px;
+  height: 30px;
+  float: left;
+  position: relative;
+  top: 8px;
+}
+
+.sketch-title {
+  margin: 0;
+  padding: 0;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.search-svg {
+  background-color: rgb(20, 20, 20);
+  padding: 9px;
+}
+
+#search-box {
+  background-color: rgb(20, 20, 20);
+  color: white;
+  width: 450px;
+  height: 34px;
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+.cancel-svg {
+  background-color: rgb(20, 20, 20);
+  padding: 9px;
+}
